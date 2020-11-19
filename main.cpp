@@ -6,8 +6,6 @@ using namespace std;
 // Exemplo para teste com as funções declaradas
 // Aguardar o programa informar a mensagem que o arquivo foi salvo
 
-
-
 int main(){
   Sculptor ex(60,60,60);
     // cor areia (chao)
@@ -145,10 +143,6 @@ int main(){
     ex.putEllipsoid(50,5,40,1,2,1);
     ex.cutVoxel(50,5,39);
     ex.putVoxel(51,5,40);
-
-
-
-
 ex.writeOFF("/home/dimitri/OFF/ex.off");
     return 0;
 }
